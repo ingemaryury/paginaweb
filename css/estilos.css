@@ -1,0 +1,19 @@
+body{
+  background-color: cyan;
+}
+
+header{
+  background-color:FFF333;
+  padding: 100px;
+}
+p {color:red;
+  font-size:20px;
+  font-family: verdana;
+
+  /*  font-size: 300%;*/
+}
+  h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+  }

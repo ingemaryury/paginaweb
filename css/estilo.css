@@ -1,0 +1,66 @@
+/* Establecer estilos generales para la página */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #009933; /* Fondo verde */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilos para la sección (section) */
+section {
+    margin: 20px;
+    text-align: left;
+    height: 100vh; /* 100% del viewport height (alto de la ventana) */
+    align-items: justify;     /* Centra verticalmente el contenido */
+}
+
+section p {
+    margin: 0 0 10px;
+}
+
+section ol {
+    margin: 0;
+    padding: 0 0 10px 20px;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #003399; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 5px;
+}
+
+.imagen-superior-izquierda {
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}
